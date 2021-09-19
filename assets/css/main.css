@@ -35,8 +35,8 @@ body {
 }
 
 .wrapper__bg {
-    background: url('/assets/img/bg-1.jpg') center top no-repeat,
-        url('/assets/img/bg-2.jpg') right bottom 165px no-repeat;
+    background: url('/air-asia/assets/img/bg-1.jpg') center top no-repeat,
+        url('/air-asia/assets/img/bg-2.jpg') right bottom 165px no-repeat;
     background-size: contain;
 }
 
@@ -114,7 +114,7 @@ body {
     width: 21px;
     height: 28px;
     margin-left: 12px;
-    background-image: url('/assets/img/icon-flame.png');
+    background-image: url('/air-asia/assets/img/icon-flame.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -226,12 +226,12 @@ body {
 
 .promo-details__item--calendar::before {
     width: 26px;
-    background-image: url('/assets/img/icon-calendar.png');
+    background-image: url('/air-asia/assets/img/icon-calendar.png');
 }
 
 .promo-details__item--eat::before {
     width: 36px;
-    background-image: url('/assets/img/icon-meal.png');
+    background-image: url('/air-asia/assets/img/icon-meal.png');
 }
 
 .promo-details__item-caption {
@@ -377,7 +377,7 @@ body {
     width: 490px;
     height: 505px;
     border-radius: 5px;
-    background-image: url('/assets//img/about-gates.jpg');
+    background-image: url('/air-asia/assets//img/about-gates.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -390,7 +390,7 @@ body {
     background-color: #ffffff;
     border-radius: 5px;
     padding: 70px 204px 66px 80px;
-    background-image: url('/assets//img/about-mountains.jpg');
+    background-image: url('/air-asia/assets//img/about-mountains.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -454,19 +454,19 @@ body {
 }
 
 .socials__item-link--tg {
-    background-image: url('/assets/img/icon-tg.png');
+    background-image: url('/air-asia/assets/img/icon-tg.png');
 }
 
 .socials__item-link--vk {
-    background-image: url('/assets/img/icon-vk.png');
+    background-image: url('/air-asia/assets/img/icon-vk.png');
 }
 
 .socials__item-link--fb {
-    background-image: url('/assets/img/icon-fb.png');
+    background-image: url('/air-asia/assets/img/icon-fb.png');
 }
 
 .socials__item-link--in {
-    background-image: url('/assets/img/icon-in.png');
+    background-image: url('/air-asia/assets/img/icon-in.png');
 }
 
 .footer__contacts {
