@@ -27,11 +27,9 @@ body {
 .header,
 .section,
 .footer {
-    max-width: 1164px;
+    width: 1140px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 12px;
-    padding-right: 12px;   
 }
 
 .wrapper__bg {
@@ -69,7 +67,7 @@ body {
 .header__contacts {
     margin-left: auto;
     position: absolute;
-    right: 12px;
+    right: 0;
 }
 
 .nav__item-link {
@@ -172,12 +170,17 @@ body {
 
 }
 
-.promo-cards {
+.button--outline:hover {
+    background-color: #F5170E;
+    color: #FFFFFF;
+}
+
+.promo__list {
     font-size: 0;
     margin-top: 52px;
 }
 
-.promo-cards__item {
+.promo__item {
     display: inline-block;
     max-width: 362px;
     background-color: #FFFFFF;
@@ -187,33 +190,33 @@ body {
     overflow: hidden;
 }
 
-.promo-cards__item:nth-child(n + 2) {
+.promo__item:nth-child(n + 2) {
     margin-left: 26px;
 }
 
-.promo-cards__img {
+.promo__item-img {
     width: 100%; 
 }
 
-.promo-cards__content {
+.promo__item-content {
     padding: 24px 22px 26px;
 }
 
-.promo-cards__title {
+.promo__item-title {
     font-size: 24px;
     line-height: 33px;
     font-weight: 700;
 }
 
-.promo-details {
+.promo__details {
     margin-top: 22px;
 }
 
-.promo-details__item {
+.promo__details-item {
     display: inline-block;
 }
 
-.promo-details__item::before {
+.promo__details-item::before {
     content: '';
     display: inline-block;
     height: 26px;
@@ -224,17 +227,17 @@ body {
     vertical-align: middle;
 }
 
-.promo-details__item--calendar::before {
+.promo__details-item--calendar::before {
     width: 26px;
     background-image: url('/air-asia/assets/img/icon-calendar.png');
 }
 
-.promo-details__item--eat::before {
+.promo__details-item--eat::before {
     width: 36px;
     background-image: url('/air-asia/assets/img/icon-meal.png');
 }
 
-.promo-details__item-caption {
+.promo__details-caption {
     display: inline-block;
     line-height: 26px;
     vertical-align: middle;
@@ -244,11 +247,11 @@ body {
     color: #666666;
 }
 
-.promo-details__item:nth-child(n + 2) {
+.promo__details-item:nth-child(n + 2) {
     margin-left: 26px;
 }
 
-.promo-cards__description {
+.promo__description {
     margin-top: 24px;
     font-size: 14px;
     line-height: 21px;
@@ -256,7 +259,7 @@ body {
     color: #303030;
 }
 
-.promo-cards__more-link {
+.promo__more-link {
     margin-top: 26px;
     padding: 17px 30px;
 }
@@ -265,12 +268,12 @@ body {
     margin-top: 118px;
 }
 
-.news-cards {
+.news__list {
     margin-top: 52px;
     font-size: 0;
 }
 
-.news-cards__item {
+.news__item {
     border-radius: 5px;
     padding: 248px 32px 48px;
     display: inline-block;
@@ -285,24 +288,24 @@ body {
     vertical-align: top;
 }
 
-.news-cards__item:nth-child(n+2) {
+.news__item:nth-child(n+2) {
     margin-left: 25px;
 }
 
-.news-cards__date {
+.news__date {
     font-size: 14px;
     line-height: 21px;
     font-weight: 400;
 }
 
-.news-cards__title {
+.news__title {
     margin-top: 12px;
     font-size: 24px;
     line-height: 36px;
     font-weight: 700;
 }
 
-.news-cards__description {
+.news__description {
     margin-top: 4px;
     font-size: 16px;
     line-height: 21px;
@@ -451,6 +454,11 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    opacity: 0.5;
+}
+
+.socials__item-link:hover {
+    opacity: 1;
 }
 
 .socials__item-link--tg {
@@ -471,7 +479,7 @@ body {
 
 .footer__contacts {
     position: absolute;
-    right: 12px;
+    right: 0;
 }
 
 .contacts {
