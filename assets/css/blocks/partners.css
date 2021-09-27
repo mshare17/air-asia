@@ -1,0 +1,38 @@
+.partners {
+    background-color: #F4F5F5;
+    padding-top: 88px;
+    padding-bottom: 100px;
+    
+}
+
+.partners__title {
+    font-size: 48px;
+    line-height: 65px;
+    font-weight: 700;
+    color: #1A1B1E;  
+}
+
+.partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.partners__item {
+    margin-left: 50px;
+    margin-top: 78px;
+}
+
+.partners__item:first-child,
+.partners__item:nth-child(5n) {
+    margin-left: 0;
+}
+
+.partners__link {
+    filter: grayscale(100%);
+}
+
+.partners__link:hover {
+    filter: grayscale(0);
+}

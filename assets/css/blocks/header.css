@@ -1,0 +1,24 @@
+.header {
+    position: relative;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    display: flex;
+    align-items: center;   
+}
+
+.logo, .header__nav, .header__contacts {
+    vertical-align: middle;
+}
+
+.logo__img {
+    width: 85px;
+}
+
+.header__nav {
+    margin-left: 74px;
+}
+
+.header__contacts {
+    margin-left: auto;
+    right: 0;
+}

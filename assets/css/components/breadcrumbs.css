@@ -1,0 +1,17 @@
+.breadcrumbs__item {
+    display: inline-block;
+    color: #9A9A9A;
+}
+
+.breadcrumbs__item:nth-last-child(n+2)::after {
+    content: " / ";
+}
+
+.breadcrumbs__item:last-child .breadcrumbs__link {
+    font-weight: 700;
+}
+
+.breadcrumbs__link {
+    color: #9A9A9A;
+    text-decoration: underline;
+}

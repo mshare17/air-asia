@@ -1,0 +1,19 @@
+.nav__list {
+    display: flex;
+}
+
+.nav__item:nth-child(n + 2) {
+    margin-left: 54px;
+}
+
+.nav__item-link {
+    color: #FFFFFF;
+}
+
+.nav__item-link--active {
+    color: #DA0100;
+}
+
+.nav__item-link:hover {
+    color: #DA0100;
+}

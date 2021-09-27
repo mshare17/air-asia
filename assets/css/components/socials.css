@@ -1,0 +1,38 @@
+.socials {
+    font-size: 0;
+    display: flex;
+}
+
+.socials__item:nth-child(n + 2) {
+    margin-left: 10px;
+}
+
+.socials__item-link {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    opacity: 0.5;
+}
+
+.socials__item-link:hover {
+    opacity: 1;
+}
+
+.socials__item-link--tg {
+    background-image: url('/air-asia/assets/img/icon-tg.png');
+}
+
+.socials__item-link--vk {
+    background-image: url('/air-asia/assets/img/icon-vk.png');
+}
+
+.socials__item-link--fb {
+    background-image: url('/air-asia/assets/img/icon-fb.png');
+}
+
+.socials__item-link--in {
+    background-image: url('/air-asia/assets/img/icon-in.png');
+}

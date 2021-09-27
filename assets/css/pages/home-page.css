@@ -1,0 +1,5 @@
+.home-page {
+    background: url('/air-asia/assets/img/bg-1.jpg') center top no-repeat,
+    url('/air-asia/assets/img/bg-2.jpg') right bottom 165px no-repeat;
+    background-size: contain;
+}

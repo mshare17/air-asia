@@ -1,0 +1,25 @@
+.hero {
+    padding-top: 102px;
+    padding-bottom: 246px;
+}
+
+.hero__content {
+    max-width: 512px;
+}
+
+.hero__title {
+    font-size: 72px;
+    line-height: 98px;
+    font-weight: 700;
+}
+
+.hero__description {
+    margin-top: 28px;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+.hero__link {
+    margin-top: 36px;  
+}

@@ -1,0 +1,14 @@
+.schedule {
+    text-align: right;
+}
+
+.schedule__btn {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    color: #98A4A8;
+    text-decoration: underline;
+}
+.schedule__content {
+    display: none;
+}

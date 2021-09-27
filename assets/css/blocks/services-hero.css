@@ -1,0 +1,13 @@
+.services-hero {
+    padding-bottom: 24px;
+    background: url('/air-asia/assets/img/bg-headline.jpg') center top no-repeat;
+    background-size: cover;
+}
+
+.services-hero__title {
+    font-size: 72px;
+    line-height: 98px;
+    font-weight: 700; 
+    padding-top: 105px;
+    padding-bottom: 105px; 
+}

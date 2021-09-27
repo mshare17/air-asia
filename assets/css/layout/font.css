@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/air-asia/assets/fonts/OpenSans-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: bold;
+    font-weight: 700;
+    src: url('/air-asia/assets/fonts/OpenSans-Bold.woff2') format('woff2');
+}
