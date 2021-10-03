@@ -2,8 +2,10 @@
 @import url(/air-asia/assets/css/layout/font.css);
 @import url(/air-asia/assets/css/layout/base.css);
 
+@import url(/air-asia/assets/css/pages/welcome-page.css);
 @import url(/air-asia/assets/css/pages/home-page.css);
 @import url(/air-asia/assets/css/pages/services-page.css);
+@import url(/air-asia/assets/css/pages/reviews-page.css);
 
 @import url(/air-asia/assets/css/blocks/header.css);
 @import url(/air-asia/assets/css/blocks/hero.css);
@@ -13,9 +15,13 @@
 @import url(/air-asia/assets/css/blocks/services-hero.css);
 @import url(/air-asia/assets/css/blocks/services.css);
 @import url(/air-asia/assets/css/blocks/partners.css);
+@import url(/air-asia/assets/css/blocks/feed.css);
 @import url(/air-asia/assets/css/blocks/footer.css);
 
 @import url(/air-asia/assets/css/components/button.css);
+@import url(/air-asia/assets/css/components/input.css);
+@import url(/air-asia/assets/css/components/checkbox-tag.css);
+@import url(/air-asia/assets/css/components/textarea.css);
 @import url(/air-asia/assets/css/components/nav.css);
 @import url(/air-asia/assets/css/components/pagination.css);
 @import url(/air-asia/assets/css/components/breadcrumbs.css);

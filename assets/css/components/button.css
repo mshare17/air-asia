@@ -7,6 +7,8 @@
     text-transform: uppercase;
     border: 1px solid #F5170E;
     border-radius: 28px;
+    transition-property: color background-color border-color;
+    transition-duration: 0.3s;
 }
 
 .button--fill {
@@ -16,6 +18,12 @@
 
 .button--outline {
     color: #F5170E;
+}
+
+.button--black {
+    color: #FFFFFF;
+    background-color: #2B2B2B;
+    border-color: #2B2B2B;
 }
 
 .button--outline:hover {

@@ -1,4 +1,5 @@
 .schedule {
+    position: relative;
     text-align: right;
 }
 
@@ -9,6 +10,51 @@
     color: #98A4A8;
     text-decoration: underline;
 }
+
+.schedule__content-wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 24px;
+    opacity: 0;
+    pointer-events: none;
+    cursor: pointer;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+}
+
+.schedule__content-wrap::after {
+    position: absolute;
+    content: '';
+    top: 16px;
+    right: 46px;
+    width: 0; 
+    height: 0; 
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid rgba(237, 237, 237, .8);
+    
+}
+
 .schedule__content {
-    display: none;
+    border-radius: 5px;
+    background-color: rgba(237, 237, 237, .8);
+    color: #1E1F20;
+    padding: 11px 16px 14px;
+}
+
+.schedule:hover .schedule__content-wrap {
+    pointer-events:initial;
+    opacity: 1;
+}
+
+.schedule__text {
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 600;
+    color: #1E1F20
+}
+
+.schedule__text--accent {
+    font-weight: 700;
 }

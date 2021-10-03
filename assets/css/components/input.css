@@ -1,0 +1,21 @@
+input {
+    height: 65px;
+    border-radius: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 18;
+    line-height: 24px;
+    font-weight: 400;
+    color: #1A1B1E;
+    outline: none;
+    border: 1px solid #ffffff;
+    background-color: #FFFFFF;
+}
+
+input:focus {
+    border-color: #2B2B2B;
+}
+
+.input--error {
+    border-color: #F5170E;
+}

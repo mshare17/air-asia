@@ -1,0 +1,78 @@
+
+.feed {
+    background-color: #F4F5F5;
+}
+
+.feed__promo {
+    background-color: #001821;
+    background: url('/air-asia/assets/img/feed-promo.jpg') center no-repeat;
+    background-size: cover;
+}
+
+.feed__promo-title,
+.feed__title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 65px;
+}
+.feed__promo-title {
+    width: 595px;
+    padding-top: 116px;
+    padding-bottom: 116px;
+}
+
+.feed__content {
+    padding-top: 62px;
+    padding-bottom: 96px;
+}
+
+.feed__title {
+    color: #1A1B1E;
+}
+
+.feed__form {
+    margin-top: 56px;
+}
+
+.feed__inputs {
+    display: flex;
+}
+
+.feed__inputs > .feed__input {
+    flex-grow: 1;
+}
+
+.feed__inputs > .feed__input:nth-of-type(n+2) {
+    margin-left: 28px;
+}
+
+.feed__textarea {
+    margin-top: 26px;
+    width: 100%;
+}
+
+.feed__services {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feed__sevices-caption {
+    font-style: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #1A1B1E;
+    flex-shrink: 0;
+}
+
+.feed__sevices-controls {
+    max-width: 702px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.feed__sevices-controls > .checkbox-tag {
+    margin-left: 8px;
+    margin-bottom: 9px;
+}

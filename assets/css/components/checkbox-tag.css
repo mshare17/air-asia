@@ -1,0 +1,35 @@
+.checkbox-tag {
+    position: relative;
+}
+
+.checkbox-tag > .checkbox-tag__caption {
+    display: inline-block;
+    padding: 9px 15px 10px 15px;
+    font-size: 13px;
+    line-height: 18px;
+    border-radius: 38px;
+    font-weight: 400;
+    color: #303030;
+    background-color: #E7E7E7;
+    cursor: pointer;
+}
+
+.checkbox-tag > .checkbox-tag__input {
+    position: absolute;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.checkbox-tag > .checkbox-tag__input:checked + .checkbox-tag__caption {
+    background-color: #B9EAE4;
+}
+
+.feed__actions {
+    margin-top: 32px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.feed__actions > button {
+    margin-left: 18px;
+}

@@ -1,0 +1,20 @@
+textarea {
+    border-radius: 5px;
+    padding: 28px 30px;
+    font-size: 18;
+    line-height: 24px;
+    font-weight: 400;
+    color: #1A1B1E;
+    outline: none;
+    border: 1px solid #ffffff;
+    background-color: #FFFFFF;
+    resize: none;
+}
+
+textarea:focus {
+    border-color: #2B2B2B;
+}
+
+.textarea--error {
+    border-color: #F5170E;
+}
