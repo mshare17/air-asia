@@ -13,9 +13,5 @@ input {
 }
 
 input:focus {
-    border-color: #2B2B2B;
-}
-
-.input--error {
     border-color: #F5170E;
 }

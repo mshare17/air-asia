@@ -8,31 +8,72 @@
 }
 
 .socials__item-link {
+    position: relative;
     display: block;
     width: 36px;
     height: 36px;
+}
+
+.socials__item-link::before,
+.socials__item-link::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    content: '';
+    display: block;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    opacity: 0.5;
+    transition-duration: .3s;
+    transition-property: opacity;
 }
 
-.socials__item-link:hover {
+.socials__item-link::before {
     opacity: 1;
 }
 
-.socials__item-link--tg {
-    background-image: url('/air-asia/assets/img/icon-tg.png');
+.socials__item-link::after {
+    opacity: 0;
 }
 
-.socials__item-link--vk {
-    background-image: url('/air-asia/assets/img/icon-vk.png');
+.socials__item-link:hover::before {
+    opacity: 0;
 }
 
-.socials__item-link--fb {
-    background-image: url('/air-asia/assets/img/icon-fb.png');
+.socials__item-link:hover::after {
+    opacity: 1;
 }
 
-.socials__item-link--in {
-    background-image: url('/air-asia/assets/img/icon-in.png');
+.socials__item-link--tg::before {
+    background: url('/air-asia/assets/img/icons-sprites.png') -122px -66px;
+}
+
+.socials__item-link--tg::after {
+    background: url('/air-asia/assets/img/icons-sprites.png') -122px -10px;
+}
+
+.socials__item-link--vk::before {
+    background: url('/air-asia/assets/img/icons-sprites.png') -66px -122px;
+}
+
+.socials__item-link--vk::after {
+    background: url('/air-asia/assets/img/icons-sprites.png') -10px -122px;
+}
+
+.socials__item-link--fb::before {
+    background: url('/air-asia/assets/img/icons-sprites.png') -66px -10px;
+}
+
+.socials__item-link--fb::after {
+    background: url('/air-asia/assets/img/icons-sprites.png') -10px -10px;
+}
+
+.socials__item-link--in::before {
+    background: url('/air-asia/assets/img/icons-sprites.png') -66px -66px;
+}
+
+.socials__item-link--in::after {
+    background: url('/air-asia/assets/img/icons-sprites.png') -10px -66px;
 }

@@ -12,9 +12,5 @@ textarea {
 }
 
 textarea:focus {
-    border-color: #2B2B2B;
-}
-
-.textarea--error {
     border-color: #F5170E;
 }
