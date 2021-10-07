@@ -12,6 +12,6 @@ input {
     background-color: #FFFFFF;
 }
 
-input:focus {
+input[type='text']:focus {
     border-color: #F5170E;
 }

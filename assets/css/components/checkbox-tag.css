@@ -30,6 +30,6 @@
     justify-content: flex-end;
 }
 
-.feed__actions > button {
+.feed__actions > .button {
     margin-left: 18px;
 }

@@ -9,6 +9,7 @@
     border-radius: 28px;
     transition-property: color background-color border-color;
     transition-duration: 0.3s;
+    cursor: pointer;
 }
 
 .button--fill {
@@ -29,4 +30,8 @@
 .button--outline:hover {
     background-color: #F5170E;
     color: #FFFFFF;
+}
+
+input.button {
+    height: auto;
 }
